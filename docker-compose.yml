@@ -1,0 +1,15 @@
+---
+version: '3.4'
+
+services:
+  sonarqube:
+    image: sonarqube:latest
+    ports:
+      - 9000:9000
+    volumes:
+      - /c/users/dasil/docker/sonar/data:/opt/sonarqube/data
+      - /c/users/dasil/docker/sonar/conf:/opt/sonarqube/conf
+      - /c/users/dasil/docker/sonar/logs:/opt/sonarqube/logs
+      - /c/users/dasil/docker/sonar/extensions:/opt/sonarqube/extensions
+    environment:
+      - SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true

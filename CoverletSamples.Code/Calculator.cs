@@ -4,10 +4,7 @@ namespace CoverletSamples.Code
 {
     public static class Calculator
     {
-        public static int Sum(int a, int b)
-        {
-            return a + b;
-        }
+        public static int Sum(int a, int b) => a + b;
 
         public static int Subtract(int a, int b) => a - b;
 
@@ -33,5 +30,28 @@ namespace CoverletSamples.Code
             }
             return true;
         }
+
+        // public static int DoSomeVeryLongCalculation(int a)
+        // {
+        //     if (IsPrime(a))
+        //     {
+        //         return a;
+        //     }
+
+        //     if (IsEven(a))
+        //     {
+        //         a = Sum(a, a);
+        //     }
+
+        //     a = Multiply(a, a);
+        //     a = Power(a, a);
+
+        //     if (!IsEven(a))
+        //     {
+        //         a = Subtract(a, a);
+        //     }
+
+        //     return a;
+        // }
     }
 }

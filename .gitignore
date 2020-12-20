@@ -445,3 +445,8 @@ $RECYCLE.BIN/
 ## Cake
 ##
 tools/
+
+##
+## SonarQube
+##
+.sonarqube/*

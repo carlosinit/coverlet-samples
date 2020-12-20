@@ -4,7 +4,7 @@ var target = Argument("target", "SonarEnd");
 var configuration = Argument("configuration", "Release");
 var sonarUrl = "http://localhost:9000";
 var sonarKey = "CoverletSamples";
-var sonarToken = "c19e6472f483b52ff7de12ed9630261babb8aae0";
+var sonarToken = "d3d6e1840e3ca413e3e62ce1de42b8d9fdf8918e";
 
 //////////////////////////////////////////////////////////////////////
 // TASKS

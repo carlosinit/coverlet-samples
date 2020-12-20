@@ -17,17 +17,17 @@ namespace CoverletSamples.CodeTests
 
             Assert.Throws<InvalidOperationException>(() => Calculator.Divide(1, 0));
 
-            // Assert.True(Calculator.IsPrime(1));
-            // Assert.True(Calculator.IsPrime(2));
-            // Assert.True(Calculator.IsPrime(3));
-            // Assert.False(Calculator.IsPrime(4));
-            // Assert.True(Calculator.IsPrime(5));
-            // Assert.False(Calculator.IsPrime(6));
-            // Assert.True(Calculator.IsPrime(7));
-            // Assert.False(Calculator.IsPrime(8));
-            // Assert.False(Calculator.IsPrime(9));
-            // Assert.False(Calculator.IsPrime(10));
-            // Assert.True(Calculator.IsPrime(97));
+            Assert.True(Calculator.IsPrime(1));
+            Assert.True(Calculator.IsPrime(2));
+            Assert.True(Calculator.IsPrime(3));
+            Assert.False(Calculator.IsPrime(4));
+            Assert.True(Calculator.IsPrime(5));
+            Assert.False(Calculator.IsPrime(6));
+            Assert.True(Calculator.IsPrime(7));
+            Assert.False(Calculator.IsPrime(8));
+            Assert.False(Calculator.IsPrime(9));
+            Assert.False(Calculator.IsPrime(10));
+            Assert.True(Calculator.IsPrime(97));
         }
     }
 }
